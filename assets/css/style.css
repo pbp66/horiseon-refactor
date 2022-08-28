@@ -100,17 +100,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-content {
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-content h3 {
+.benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-content img {
+.benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
