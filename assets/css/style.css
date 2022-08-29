@@ -1,12 +1,52 @@
+/*
+ * The CSS comments were based on viewing this link here: https://gabrieleromanato.name/css-using-comments-the-right-way
+ * The CSS selectors and properties below are self-explanatory.
+ */
+
+/*= General Styling
+ * Styles all elements within index.html to the following properties. Further selectors will overwrite these properties.
+ */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*= Body and Background Section
+ * Contains five selectors for styling the tags within the body of index.html
+ */
+
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 16px;
+}
+
+.background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*= Header Section
+ * Contains six selectors for styling the tags within the body header of index.html
+ */
 
 header {
     padding: 20px;
@@ -42,28 +82,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-.background {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*= Content Section
+ * Contains four selectors for styling the tags within the content section of index.html
+ */
 
 .content {
     width: 75%;
@@ -88,6 +109,10 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*= Benefits Section
+ * Contains four selectors for styling the tags within the benefits section of index.html
+ */
 
 .benefits {
     margin-right: 20px;
@@ -115,6 +140,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*= Footer Section
+ * Selectors for the footer section. 
+ */
 
 footer {
     padding: 30px;
