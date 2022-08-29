@@ -26,3 +26,5 @@ There is nothing to install with this project. To see the final product, please 
 https://pbp66.github.io/horiseon-refactor/
 
 ## How to Use This Repository
+
+Use this repository to review semantic HTML elements and how to structure basic CSS selectors.
