@@ -10,12 +10,6 @@ Given a generic webpage, when I view the source HTML and CSS, it contains semant
 
 This project serves to explore HTML and CSS elements focused on learning about semantic tags, logical flow, and reducing redundancy. I learned a lot about semantic elements and how CSS selectors work together. I did a lot of experimenting to see what I could and could not condense into as few selectors as possible. I researched several articles on alt text so it would be concise and descriptive for each image. 
 
-What was your motivation?
-Why did you build this project?
-What problem does it solve?
-What did you learn?
-What makes your project stand out?
-
 ## Preview
 
 ![Expected webpage preview](/assets/images/webpage-screenshot.png "Horiseon Webpage Preview")
